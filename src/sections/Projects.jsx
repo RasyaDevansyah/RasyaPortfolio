@@ -33,7 +33,7 @@ const Projects = () => {
           {/* Video content */}
           <div className="lg:w-4/5">
             <video
-              src="/assets/videos/JohnDice.webm"
+              src="/assets/videos/Johndice.webm"
               autoPlay loop muted playsInline loading="lazy"
               className="w-full h-full object-cover rounded-b-2xl lg:rounded-r-2xl lg:rounded-b-none shadow-lg"
             />
@@ -72,13 +72,13 @@ const Projects = () => {
           <div className="p-6 lg:p-8 flex flex-col justify-center lg:w-3/5">
             <h3 className="font-bold text-2xl md:text-4xl">LightZero</h3>
             <p className="text-base md:text-lg mt-4">
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque erat quis dapibus lobortis. Sed nulla arcu, facilisis ac egestas quis, porttitor et ligula. Aliquam quis turpis eleifend, mollis ligula ut, tempor orci. Donec luctus tortor vitae dui ullamcorper, vitae viverra nibh porttitor.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque erat quis dapibus lobortis. Sed nulla arcu, facilisis ac egestas quis, porttitor et ligula. Aliquam quis turpis eleifend, mollis ligula ut, tempor orci. Donec luctus tortor vitae dui ullamcorper, vitae viverra nibh porttitor.
             </p>
           </div>
           {/* Video content */}
           <div className="lg:w-6/5">
             <video
-              src="/assets/videos/LightZero.webm"
+              src="/assets/videos/Lightzero.webm"
               autoPlay loop muted playsInline loading="lazy"
               className="w-full h-full object-cover rounded-t-2xl lg:rounded-r-2xl lg:rounded-t-none shadow-lg"
             />
@@ -90,7 +90,7 @@ const Projects = () => {
           <div className="p-6 lg:p-8 lg:w-1/2">
             <h3 className="font-bold text-2xl md:text-4xl">Tactical Shooter</h3>
             <p className="text-base md:text-lg mt-4">
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque erat quis dapibus lobortis. Sed nulla arcu, facilisis ac egestas quis, porttitor et ligula.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque erat quis dapibus lobortis. Sed nulla arcu, facilisis ac egestas quis, porttitor et ligula.
             </p>
           </div>
           <div className="w-full lg:w-1/2">
@@ -105,28 +105,28 @@ const Projects = () => {
 
         {/* Grid 6: Project Six (Image Left) */}
 
-        
+
         <div className="bg-gradient-to-b from-storm to-indigo rounded-2xl lg:col-span-2 lg:row-span-2 flex flex-col lg:flex-row overflow-hidden">
           <div className="p-6 lg:p-8 flex flex-col justify-center lg:w-3/5">
             <h3 className="font-bold text-2xl md:text-4xl">Pixel Adventure</h3>
             <p className="text-base md:text-lg mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque erat quis dapibus lobortis. Sed nulla arcu, facilisis ac egestas quis, porttitor et ligula. Aliquam quis turpis eleifend, mollis ligula ut, tempor orci. Donec luctus tortor vitae dui ullamcorper.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque erat quis dapibus lobortis. Sed nulla arcu, facilisis ac egestas quis, porttitor et ligula. Aliquam quis turpis eleifend, mollis ligula ut, tempor orci. Donec luctus tortor vitae dui ullamcorper.
             </p>
           </div>
           <div className="lg:w-2/5">
             <img
               src="/assets/projects/TacticalShooter.png"
-              autoPlay loop muted playsInline
+              autoPlay loop muted playsInline loading="lazy"
               className="w-full h-full object-cover rounded-b-2xl lg:rounded-r-2xl lg:rounded-b-none shadow-lg"
-              />
+            />
           </div>
         </div>
         {/* Grid 7: Pixel Adventure */}
         <div className="bg-gradient-to-b from-storm to-indigo rounded-2xl lg:col-span-2 flex flex-col-reverse lg:flex-row items-center overflow-hidden">
           <div className="w-full lg:w-4/5">
             <video
-              src="/assets/videos/PixelAdventure.webm"
-              autoPlay loop muted playsInline
+              src="/assets/videos/Pixeladventure.webm"
+              autoPlay loop muted playsInline loading="lazy"
               className="w-full h-full object-cover rounded-b-2xl lg:rounded-l-2xl lg:rounded-b-none shadow-lg"
             />
           </div>
@@ -141,19 +141,19 @@ const Projects = () => {
 
         {/* Grid 8: Schmeggs */}
         <div className="bg-gradient-to-b from-storm to-indigo rounded-2xl lg:col-span-2 lg:row-span-3 flex flex-col overflow-hidden">
-            <div className="h-96">
-                <video
-                    src="/assets/videos/Schmeggs.webm"
-                    autoPlay loop muted playsInline
-                    className="w-full h-full object-cover"
-                />
-            </div>
-            <div className="p-6 lg:p-8">
-                <h3 className="font-bold text-2xl md:text-4xl">Schmeggs</h3>
-                <p className="text-base md:text-lg mt-4">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque erat quis dapibus lobortis. Sed nulla arcu, facilisis ac egestas quis, porttitor et ligula. Aliquam quis turpis eleifend, mollis ligula ut, tempor orci. Donec luctus tortor vitae dui ullamcorper, vitae viverra nibh porttitor. Vestibulum mollis maximus est eu blandit.
-                </p>
-            </div>
+          <div className="h-96">
+            <video
+              src="/assets/videos/Schmeggs.webm"
+              autoPlay loop muted playsInline loading="lazy"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="p-6 lg:p-8">
+            <h3 className="font-bold text-2xl md:text-4xl">Schmeggs</h3>
+            <p className="text-base md:text-lg mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque erat quis dapibus lobortis. Sed nulla arcu, facilisis ac egestas quis, porttitor et ligula. Aliquam quis turpis eleifend, mollis ligula ut, tempor orci. Donec luctus tortor vitae dui ullamcorper, vitae viverra nibh porttitor. Vestibulum mollis maximus est eu blandit.
+            </p>
+          </div>
         </div>
       </div>
 
