@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./sections/navbar";
+import Navbar from "./sections/Navbar.jsx";
 // import Hero from "./sections/Hero";
-import About from "./sections/About";
-import Projects from "./sections/Projects";
-import Experiences from "./sections/Experiences";
-import Contact from "./sections/Contact";
-import Footer from './sections/Footer';
+import About from "./sections/About.jsx";
+import Projects from "./sections/Projects.jsx";
+import Experiences from "./sections/Experiences.jsx";
+import Contact from "./sections/Contact.jsx";
+import Footer from './sections/Footer.jsx';
 
 const Hero = React.lazy(() => import('./sections/Hero'));
 
