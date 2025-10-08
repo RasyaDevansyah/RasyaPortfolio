@@ -39,7 +39,7 @@ function hexToRgb(hex) {
   return [red, green, blue];
 }
 
-export const Particles = ({
+const Particles = ({
   className = "",
   quantity = 100,
   staticity = 50,
@@ -268,3 +268,5 @@ export const Particles = ({
     </div>
   );
 };
+
+export default Particles;
