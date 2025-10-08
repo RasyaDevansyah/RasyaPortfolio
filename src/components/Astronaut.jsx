@@ -11,7 +11,7 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 import { useMotionValue, useSpring } from "motion/react";
 import { useFrame } from "@react-three/fiber";
 
-export function Astronaut(props) {
+function Astronaut(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF(
     "/models/tenhun_falling_spaceman_fanart.glb"
@@ -128,3 +128,5 @@ export function Astronaut(props) {
 }
 
 useGLTF.preload("/models/tenhun_falling_spaceman_fanart.glb");
+
+export default Astronaut;
