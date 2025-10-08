@@ -33,7 +33,7 @@ const Projects = () => {
           {/* Video content */}
           <div className="lg:w-4/5">
             <video
-              src="/assets/videos/Johndice.webm"
+              src="/assets/videos/JohnDice.webm"
               autoPlay loop muted playsInline loading="lazy"
               className="w-full h-full object-cover rounded-b-2xl lg:rounded-r-2xl lg:rounded-b-none shadow-lg"
             />
@@ -78,7 +78,7 @@ const Projects = () => {
           {/* Video content */}
           <div className="lg:w-6/5">
             <video
-              src="/assets/videos/Lightzero.webm"
+              src="/assets/videos/LightZero.webm"
               autoPlay loop muted playsInline loading="lazy"
               className="w-full h-full object-cover rounded-t-2xl lg:rounded-r-2xl lg:rounded-t-none shadow-lg"
             />
@@ -125,7 +125,7 @@ const Projects = () => {
         <div className="bg-gradient-to-b from-storm to-indigo rounded-2xl lg:col-span-2 flex flex-col-reverse lg:flex-row items-center overflow-hidden">
           <div className="w-full lg:w-4/5">
             <video
-              src="/assets/videos/Pixeladventure.webm"
+              src="/assets/videos/PixelAdventure.webm"
               autoPlay loop muted playsInline loading="lazy"
               className="w-full h-full object-cover rounded-b-2xl lg:rounded-l-2xl lg:rounded-b-none shadow-lg"
             />
